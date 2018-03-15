@@ -5,6 +5,8 @@ exports[`Storyshots Portal portal 1`] = `
   <p>
     Non portal
   </p>
-  <portal />
+  <portal-dummy>
+    portal
+  </portal-dummy>
 </div>
 `;

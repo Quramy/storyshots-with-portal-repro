@@ -39,5 +39,5 @@ It's because that react-test-renderer can't treat portal (see https://github.com
 And the following workaround suppresses this error.
 
 ```
-ReactDOM.createPortal = node => node;
+ReactDOM.createPortal = node => React.createElement("portal-dummy", null, node);
 ```
