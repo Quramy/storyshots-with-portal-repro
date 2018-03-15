@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Portal portal 1`] = `
+<div>
+  <p>
+    Non portal
+  </p>
+  <portal />
+</div>
+`;
